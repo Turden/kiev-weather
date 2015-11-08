@@ -1,9 +1,4 @@
-#include "stdafx.h"
-#include <iostream>
-#include <conio.h>
-#include <windows.h>
-#include <stdio.h>
-#include <omp.h>
+
 
 using namespace std;
 int N = 6;
@@ -101,6 +96,7 @@ void copyV(int* sourse, int* des, int n)
 void vectorout(int*A)
 {
 	cout << "Vector A" << (char)10 << (char)13;
+	
 	for (int i = 0; i < N; i++)
 	{
 		cout << " " << A[i];
