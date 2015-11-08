@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 using namespace std;
 int N = 6;
 int P = 6;
@@ -169,12 +166,3 @@ int _tmain(int argc, _TCHAR* argv[])
 	cin >> a;
 	return 0;
 }
-=======
-<<<<<<< HEAD
-# News&SpaceWeather
-News-SpaceWeather
-
-=======
-# News-SpaceWeather
->>>>>>> parent of 134ba11... 
->>>>>>> parent of f28d27b... Update README.md
