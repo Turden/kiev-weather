@@ -7,7 +7,7 @@ int H = N / P;
 int* A, *B, *E, *T, *t1, *t2, *t3;
 int** MO, **MK, **MT, **MN, **test;
 void vxm(int* res, int* v, int** MA, int p1, int p2)
-{
+{hgvj
 	for (int i = p1; i < p2; i++)
 	{
 		res[i] = 0;
