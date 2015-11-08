@@ -1,8 +1,7 @@
 <<<<<<< HEAD
 <<<zh
 
-using namespace std;
-int N = 6;
+
 int P = 6;
 int H = N / P;
 int* A, *B, *E, *T, *t1, *t2, *t3;
