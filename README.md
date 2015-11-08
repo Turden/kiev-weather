@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 # News&SpaceWeather
 News-SpaceWeather
-NEWS
+
+=======
+# News-SpaceWeather
+>>>>>>> parent of 134ba11... Update README.md
