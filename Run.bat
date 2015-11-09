@@ -1,1 +1,1 @@
-C:\Users\Turden\Documents\GitHub\News-SpaceWeather\News-SpaceWeather\bin\Debug\News-SpaceWeather.exe
+.\News-SpaceWeather\bin\Debug\News-SpaceWeather.exe
