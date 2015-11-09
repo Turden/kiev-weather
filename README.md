@@ -1,1 +1,1 @@
-<< News&SpaceWeather
+** Zawkvar project
