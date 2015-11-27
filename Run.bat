@@ -1,1 +1,0 @@
-.\News-SpaceWeather\bin\Debug\News-SpaceWeather.exe

@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "some project",
+  "scripts": {
+    "main": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fahrenheit-to-celsius": "^1.0.0",
+    "request-promise": "^1.0.2"
+  }
+}
