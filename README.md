@@ -1,6 +1,6 @@
-# News-SpaceWeather
+# Instruction
 
-> Convert fahrenheit to celsius
+> Shows news'n'weather
 
 
 ## Clone
@@ -20,6 +20,6 @@ $ npm install
 
 ```
 $ npm run main
-//=> 2015-11-28 00:26:25 at Europe/Kiev
-     Temperature is -4°C
+2015-11-28 00:26:25 at Europe/Kiev
+Temperature is -4°C
 ```
