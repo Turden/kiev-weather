@@ -16,12 +16,17 @@ $ npm install webpack -g
 $ git clone git@github.com:Turden/News-SpaceWeather.git
 ```
 
-## Build
+## Setup external dependencies
 
 ```
 $ npm install
 ```
 
+## Build
+
+```
+$ npm run build
+```
 
 ## Usage
 
