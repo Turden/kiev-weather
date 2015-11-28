@@ -27,6 +27,5 @@ $ npm install
 
 ```
 $ npm run main
-2015-11-28 00:26:25 at Europe/Kiev
-Temperature is -4°C
 ```
+Open browser at http:\\localhost:3000\
