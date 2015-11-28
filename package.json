@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "some project",
   "scripts": {
-    "main": "webpack && node server/app.js"
+	"build": "webpack",
+    "main": "node server/app.js"
   },
   "author": "",
   "license": "ISC",
