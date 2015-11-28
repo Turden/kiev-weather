@@ -1,10 +1,10 @@
 # Instruction
 
-> Shows news'n'weather
-
 ## Requirements
 
-Install nodejs >= 5.10 https://nodejs.org/en/
+```
+Nodejs >= 5.10 https://nodejs.org/en/
+```
 
 ```
 $ npm install webpack -g
