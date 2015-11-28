@@ -28,4 +28,4 @@ $ npm install
 ```
 $ npm run main
 ```
-Open browser at http:\\localhost:3000\
+Open browser at http://localhost:3000/
