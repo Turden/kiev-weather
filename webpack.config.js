@@ -11,13 +11,18 @@ module.exports = {
         filename: "app.js",
         publicPath: '/'
     },
-    loaders: [{
-      test: /\.html$/,
-      loader: "file?name=[name].[ext]",
-    },{
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loaders: [ "babel?stage=0&optional=runtime&compact=true"],
-    }],
+    module: {
+      loaders: [{
+        test: /\.html$/,
+        loader: "file?name=[name].[ext]",
+      },{
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loaders: [ "babel?stage=0&optional=runtime&compact=true"],
+      },{
+        test: /\.json$/,
+        loader: 'json-loader'
+      }],
+    },
     plugins: [new HtmlWebpackPlugin()]
 };

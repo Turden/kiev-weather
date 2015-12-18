@@ -1,9 +1,9 @@
 {
   "name": "demo",
-  "version": "1.0.4",
+  "version": "1.0.6-rc1",
   "description": "some project",
   "scripts": {
-	"build": "webpack",
+    "build": "node update-version && webpack",
     "main": "node server/app.js"
   },
   "author": "",
@@ -17,7 +17,9 @@
     "fahrenheit-to-celsius": "^1.0.0",
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^1.7.0",
-    "json-loader": "^0.5.3",
+    "json-loader": "^0.5.4",
+    "jsonfile": "^2.2.3",
+    "mkdirp": "^0.5.1",
     "raw-loader": "^0.5.1",
     "request-promise": "^1.0.2",
     "serve-static": "^1.10.0",
