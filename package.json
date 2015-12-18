@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "1.0.6-rc2",
+  "version": "1.0.6-rc3-3-g9e4fe69",
   "description": "some project",
   "scripts": {
     "build": "node update-version && webpack",
