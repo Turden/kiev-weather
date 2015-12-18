@@ -7,7 +7,7 @@ mkdirp('/server/output', function (e) {
 
 var exec = require('child_process').exec;
 var jsonfile = require('jsonfile');
-var cmd = 'git describe --tags --abbrev=0';
+var cmd = 'git describe';
 var file = 'package.json';
 
 exec(cmd, function(e, version) {
