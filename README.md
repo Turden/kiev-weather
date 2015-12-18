@@ -34,3 +34,9 @@ $ npm run build
 $ npm run main
 ```
 Open browser at http://localhost:3000/
+
+## Tests
+
+```
+$ npm run test
+```
