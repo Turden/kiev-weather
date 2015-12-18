@@ -2,7 +2,7 @@ var express = require('express');
 var serveStatic = require('serve-static');
 var path = require('path');
 var exec = require('child_process').exec;
-var weatherHandler = require('./handlers/weather.js');
+var weatherHandler = require('./handlers/weather');
 
 var port = 3000;
 var app = express();
