@@ -3,13 +3,17 @@ var extend = require('deep-extend');
 var webpackKarmaConfig = extend(require("./webpack.config.js"), {
   entry: undefined,
   output: undefined,
-  // devtool: 'inline-source-map',
+  devtool: 'inline-source-map',
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel?plugins=babel-plugin-rewire&compact=false&stage=0'
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       }
     ]
   }

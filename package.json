@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "1.0.6-rc3-3-g9e4fe69",
+  "version": "1.0.6-rc3",
   "description": "some project",
   "scripts": {
     "build": "node update-version && webpack",
@@ -31,6 +31,9 @@
   "devDependencies": {
     "babel-plugin-rewire": "^0.1.22",
     "deep-extend": "^0.4.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-mocha": "^1.1.0",
+    "expect.js": "^0.3.1",
     "karma": "^0.13.9",
     "karma-cli": "^0.1.1",
     "karma-expect": "^1.1.0",
@@ -43,6 +46,7 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.3.4",
     "phantomjs": "^1.9.18",
+    "rewire": "^2.5.1",
     "sinon": "^1.17.2"
   }
 }
