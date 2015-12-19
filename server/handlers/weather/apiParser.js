@@ -1,4 +1,4 @@
-var fahrenheitToCelsius = require('fahrenheit-to-celsius');
+var fahrenheitToCelsius = require('./fahrenheitToCelsius');
 
 function parser (apiData) {
   var currently = apiData.currently;
