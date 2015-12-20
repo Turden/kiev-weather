@@ -10,4 +10,4 @@ export default weatherReceived => {
 	      weatherReceived(res.body);
 	    }
 	  });
-}
+};
