@@ -17,6 +17,13 @@ describe('load specification', () => {
 		expect(method).to.be('GET');
 	});
 
+	it('should call callback', () => {
+	let callback = sinon.spy();
+	loadWeather(callback);
+
+	request.respond(200);
+	expect(callback.called).to.be.ok();
+	});
 	afterEach(() => {
 		xhr.restore();
 	});
