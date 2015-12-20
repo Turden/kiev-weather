@@ -13,7 +13,7 @@ $ npm install webpack -g
 ## Clone
 
 ```
-$ git clone git@github.com:Turden/News-SpaceWeather.git
+$ git clone git@github.com:Turden/kiev-weather.git
 ```
 
 ## Setup external dependencies
