@@ -1,4 +1,4 @@
 import weatherReceived from './weatherReceived.js';
 import loadWeather from './loadWeather.js';
 
-loadWeather(weatherReceived);
+setInterval(() => loadWeather(weatherReceived), 1000);
