@@ -12,6 +12,13 @@ module.exports = {
         publicPath: '/'
     },
     module: {
+        preLoaders: [
+           {
+               test: /\.js$/, // include .js files
+               exclude: /node_modules/, // exclude any and all files in the node_modules folder
+               loader: "jshint-loader"
+           }
+        ],
       loaders: [{
         test: /\.html$/,
         loader: "file?name=[name].[ext]",
@@ -23,6 +30,12 @@ module.exports = {
         test: /\.json$/,
         loader: 'json-loader'
       }],
+    },
+    jshint: {
+        // any jshint option http://www.jshint.com/docs/options/
+        failOnHint: true,
+        esnext: true,
+        emitErrors: true,
     },
     plugins: [new HtmlWebpackPlugin()]
 };
