@@ -9,7 +9,7 @@ function parser (apiData) {
     currentDate: new Date(currently.time*1000),
     temperature: Math.round(fahrenheitToCelsius(currently.temperature)),
     windSpeed: Math.round(MileToKilometrs(currently.windSpeed))
-  }
+  };
 }
 
 module.exports = parser;
