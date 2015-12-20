@@ -2,7 +2,7 @@ import superagent from 'superagent';
 
 export default weatherReceived => {
 	superagent
-	  .get('/weather')
+	  .get('/weather1')
 	  .end((err, res) => {
 	    if (err) {
 	      document.body.innerHTML = err.toString();
