@@ -1,4 +1,4 @@
-# Instruction ![Build status](https://travis-ci.org/Turden/News-SpaceWeather.svg?branch=master)
+# Instruction <a href="https://travis-ci.org/Turden/News-SpaceWeather">![Build status](https://travis-ci.org/Turden/News-SpaceWeather.svg?branch=master)</a>
 
 ## Requirements
 
