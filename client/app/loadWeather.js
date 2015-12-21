@@ -1,11 +1,11 @@
 import superagent from 'superagent';
 
-export default weatherReceived => {
+export default (weatherReceived, failed) => {
 	superagent
 	  .get('/weather')
 	  .end((err, res) => {
 	    if (err) {
-	      document.body.innerHTML = err.toString();
+	    	failed(err);
 	    } else {
 	      weatherReceived(res.body);
 	    }
